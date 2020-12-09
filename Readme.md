@@ -2,6 +2,9 @@
 
 Converts [c-lightning](https://github.com/ElementsProject/lightning) `hsm_secret` into an [output descriptors](https://github.com/bitcoin/bitcoin/blob/master/doc/descriptors.md)
 
+
+Note the `hsm_tool` included in [c-lightning](https://github.com/ElementsProject/lightning) similarly allows to create descriptors from `hsm_secret` but only in watch-only mode.
+
 ## Usage
 
 Requires [rust](https://www.rust-lang.org/)
